@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Sansation";
+  src: url("../fonts/Sansation-Regular.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background-color: white;
+  border-bottom: 2px solid #d4ebf2;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-text {
+  font-family: "Sansation", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #d4ebf2;
+  -webkit-text-stroke: 1px #b5d6e0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  color: #d4ebf2;
+  -webkit-text-stroke: 0.5px #b5d6e0;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
