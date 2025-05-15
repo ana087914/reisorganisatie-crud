@@ -9,7 +9,7 @@
 <body>
 <header>
     <div class="logo">
-        <img src="images/home-icon.svg" alt="Logo" width="40">
+        <img src="images/icon.png" alt="Logo" width="40">
         <span class="logo-text">Family Travel</span>
     </div>
     <nav>
