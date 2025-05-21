@@ -51,3 +51,139 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
 }
+.search-banner {
+  position: relative;
+  background-image: url("../images/image2-mensen-strand.png");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.search-box {
+  background-color: white;
+  border-radius: 30px;
+  padding: 20px 25px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  max-width: 1200px;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.search-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "Montserrat", sans-serif;
+  min-width: 130px;
+}
+
+.search-item label {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.search-item span {
+  font-weight: 600;
+  font-size: 16px;
+  color: #1a1a1a;
+}
+
+.divider {
+  width: 1px;
+  height: 40px;
+  background-color: #e0e0e0;
+}
+
+.search-button {
+  background-color: #c03568;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+.search-button img {
+  width: 20px;
+  height: 20px;
+}
+
+.search-title {
+  margin-top: 40px;
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.fake-span {
+  font-weight: 600;
+  font-size: 16px;
+  color: #1a1a1a;
+  border: none;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.fake-span:focus {
+  outline: none;
+  border-bottom: 1px solid #c03568;
+}
+.categorie-title {
+  font-size: 28px;
+  margin: 60px 0 10px;
+  font-weight: bold;
+  color: #111;
+  text-shadow: 1px 1px 2px #aaa;
+}
+
+.aanbiedingen-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-bottom: 40px;
+}
+
+.aanbieding-card {
+  width: 200px;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.aanbieding-card img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+.aanbieding-card h3 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+}
+
+.aanbieding-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
