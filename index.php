@@ -36,31 +36,51 @@
   <h1 class="search-title">Vlucht + Hotel. Boek samen en betaal minder!</h1>
 </section>
 
+
+
+
 <?php
 include 'includes/db.php';
+$teksten = [
+    "Last minute" => "De beste tijd om op vakantie te gaan? Direct! Profiteer van onze lastminute-deals",
+    "All-inclusive" => "Onbeperkt plezier, ontspannen bij het zwembad of aan het strand. Trakteer jezelf op een zorgeloze all-inclusive vakantie",
+    "Stedentrip" => "Leuke steden voor 3-4 daagse trips"
+];
 
-$sql = "SELECT * FROM aanbiedingen ORDER BY categorie, id";
-$stmt = $pdo->prepare($sql);
+$stmt = $pdo->prepare("SELECT * FROM aanbiedingen ORDER BY 
+    FIELD(categorie, 'Last minute', 'All-inclusive', 'Stedentrip'), groot DESC, id");
 $stmt->execute();
-$result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+$results = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-$currentCategorie = '';
-foreach ($result as $row) {
-    if ($currentCategorie !== $row['categorie']) {
-        if ($currentCategorie !== '') echo "</div>"; // Închide secțiune anterioară
-        $currentCategorie = $row['categorie'];
-        echo "<h2 class='categorie-title'>{$currentCategorie}</h2>";
-        echo "<div class='aanbiedingen-grid'>";
+$groepen = [];
+foreach ($results as $row) {
+    $groepen[$row['categorie']][] = $row;
+}
+
+foreach ($teksten as $categorie => $sub) {
+    if (!isset($groepen[$categorie])) continue;
+
+    echo "<section class='aanbieding-sectie'>";
+    echo "<h2 class='categorie-title sansation-font'>{$categorie}</h2>";
+    echo "<p class='categorie-sub'>{$sub}</p>";
+    echo "<div class='aanbiedingen-grid'>";
+
+    foreach ($groepen[$categorie] as $aanbieding) {
+        $cardClass = $aanbieding['groot'] ? 'aanbieding-card groot' : 'aanbieding-card';
+        echo "<a href='reizen.php' class='{$cardClass}'>
+                <img src='images/{$aanbieding['afbeelding']}' alt='{$aanbieding['titel']}'>
+                <div class='aanbieding-info'>
+                    <h3>{$aanbieding['titel']}</h3>
+                    <p>{$aanbieding['beschrijving']}</p>
+                </div>
+              </a>";
     }
 
-    echo "<div class='aanbieding-card'>
-            <img src='images/{$row['afbeelding']}' alt='{$row['titel']}'>
-            <h3>{$row['titel']}</h3>
-            <p>{$row['beschrijving']}</p>
-          </div>";
+    echo "</div></section>";
 }
-if ($currentCategorie !== '') echo "</div>";
 ?>
+
+
 
 
 

@@ -153,6 +153,11 @@ nav ul li a:hover {
   color: #111;
   text-shadow: 1px 1px 2px #aaa;
 }
+.categorie-sub {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 25px;
+}
 
 .aanbiedingen-grid {
   display: flex;
@@ -186,4 +191,187 @@ nav ul li a:hover {
   font-size: 14px;
   color: #555;
   margin-bottom: 10px;
+}
+@font-face {
+  font-family: "Sansation";
+  src: url("../fonts/Sansation-Regular.ttf") format("truetype");
+}
+
+.sansation-font {
+  font-family: "Sansation", sans-serif;
+}
+
+.categorie-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-shadow: 1px 1px 2px #aaa;
+  color: #111;
+}
+
+.categorie-sub {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  margin-bottom: 25px;
+  color: #555;
+}
+
+.aanbieding-sectie {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.aanbiedingen-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+}
+
+.aanbieding-card {
+  display: block;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease;
+}
+
+.aanbieding-card:hover {
+  transform: translateY(-5px);
+}
+
+.aanbieding-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+.aanbieding-info {
+  padding: 15px 10px;
+  text-align: center;
+}
+
+.aanbieding-info h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.aanbieding-info p {
+  font-size: 14px;
+  color: #666;
+  font-family: "Montserrat", sans-serif;
+}
+
+.aanbieding-card.groot {
+  grid-column: span 2;
+  height: 100%;
+  width: 100%;
+}
+
+.aanbieding-card.groot img {
+  height: 220px;
+}
+
+.aanbieding-card.groot .aanbieding-info h3 {
+  font-size: 18px;
+}
+.reizen-title {
+  text-align: center;
+  font-family: "Sansation", sans-serif;
+  font-size: 32px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.reizen-container {
+  max-width: 1200px;
+  margin: 0 auto 60px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.reis-card {
+  display: flex;
+  gap: 20px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.reis-card:hover {
+  transform: translateY(-4px);
+}
+
+.reis-image img {
+  width: 260px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.reis-info {
+  flex: 1;
+  padding: 20px 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.reis-info h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.reis-info p {
+  font-size: 14px;
+  color: #444;
+  margin: 6px 0;
+}
+
+.reis-prijs {
+  width: 180px;
+  background: #f7f7f7;
+  padding: 20px;
+  text-align: center;
+  border-left: 1px solid #eee;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.reis-prijs div {
+  font-size: 24px;
+  font-weight: bold;
+  color: #c03568;
+}
+
+.reis-prijs small {
+  font-size: 12px;
+  color: #666;
+  margin: 10px 0;
+}
+
+.boek-knop {
+  display: inline-block;
+  background-color: #c03568;
+  color: white;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.boek-knop:hover {
+  background-color: #a42855;
 }
