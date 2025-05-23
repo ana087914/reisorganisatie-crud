@@ -23,9 +23,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <!DOCTYPE html>
 <html lang="nl">
 <head>
+<?php include 'includes/header.php'; ?>
     <meta charset="UTF-8">
     <title>Login</title>
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <div class="login-container">
