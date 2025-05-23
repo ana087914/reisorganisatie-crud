@@ -1,3 +1,4 @@
+<?php include 'includes/header.php'; ?>
 <?php
 $to = $_GET['to'] ?? '';
 $from = $_GET['from'] ?? '';
