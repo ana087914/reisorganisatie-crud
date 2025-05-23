@@ -495,3 +495,85 @@ nav ul li a:hover {
     transform: translateY(0);
   }
 }
+
+h1,
+h2 {
+  font-family: "Sansation", sans-serif;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.account-box {
+  background-color: #fff;
+  max-width: 500px;
+  margin: 0 auto 40px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Montserrat", sans-serif;
+}
+
+.boekingen-lijst {
+  max-width: 1000px;
+  margin: 0 auto 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.boeking-kaart {
+  display: flex;
+  gap: 20px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.boeking-kaart:hover {
+  transform: translateY(-4px);
+}
+
+.boeking-kaart img {
+  width: 200px;
+  object-fit: cover;
+}
+
+.boeking-kaart div {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.boeking-kaart h3 {
+  margin: 0 0 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.boeking-kaart p {
+  margin: 3px 0;
+  font-size: 14px;
+  color: #444;
+}
+
+.annuleer-btn {
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #e44;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  width: fit-content;
+  transition: background-color 0.2s ease;
+}
+
+.annuleer-btn:hover {
+  background-color: #c22;
+}
