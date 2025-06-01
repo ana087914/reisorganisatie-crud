@@ -31,7 +31,6 @@ include 'includes/header.php';
             <p>
                Laat u door ons inspireren. Iedereen verdien een adembenemnde reis, prachtige stedentrip of een zonvakantie.
                Wij zoeken naar unieke deals en combineren deze. U vindt eenvoudig de beste opties!
-            
             </p>
             <button>
                 klik voor meer
