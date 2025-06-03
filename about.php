@@ -54,6 +54,54 @@ include 'includes/header.php';
   </div>
 </section>
 
+<section class="take-care">
+    <h2>U bent belangrijk voor ons</h2>
+  <img class="take-care-image" src="images/take-care.jpg" alt="Zonsondergang over waterbungalows">
+  <div class="take-care-text">
+    <p class="take-care-description">
+      Wij zullen u ondersteunen met onze reiservaring, waar u ook bent. U hoeft alleen maar contact met ons op te nemen.
+    </p>
+    <button class="button-take-care" onclick="window.location.href='contact.php'">
+      Neem contact met ons op
+    </button>
+  </div>
+</section>
+
+
+ <section class="team-section">
+  <h2>Maak kennis met ons team</h2>
+  <p class="subheading">Wij zijn er om u te helpen bij het plannen van uw droomreis</p>
+
+  <div class="team-box1">
+    <div class="team-member">
+      <img src="images/team-member1.jpg" alt="Team Member 1">
+      <h3>Jan</h3>
+      <small>Reisadviseur</small>
+      <p>Met jarenlange ervaring in de reisbranche helpt Jan u bij het vinden van uw perfecte vakantie naar de zon.</p>
+    </div>
+  </div>
+
+  <div class="team-box2">
+    <div class="team-member">
+      <img src="images/team-member2.jpg" alt="Team Member 2">
+      <h3>Lisa</h3>
+      <small>Vluchtenspecialist</small>
+      <p>Lisa is expert in het combineren van de beste vluchten en zorgt dat u altijd de snelste en voordeligste route heeft.</p>
+    </div>
+  </div>
+
+  <div class="team-box3">
+    <div class="team-member">
+      <img src="images/team-member3.jpg" alt="Team Member 3">
+      <h3>Ahmed</h3>
+      <small>Avonturenplanner</small>
+      <p>Ahmed helpt avonturiers met unieke ervaringen zoals safari's, bergtochten en culturele expedities.</p>
+    </div>
+  </div>
+</section>
+
+  </section>
+
  <section class="testimonial-section">
     <h2>Meer dan een miljoen tevreden reizigers</h2>
     <p class="subheading">Wij helpen al jarenlang reizigers de wereld te verkennen</p>
@@ -77,6 +125,26 @@ include 'includes/header.php';
       <span></span>
     </div>
   </section>
+
+  <section class="contact-section">
+    <h2>Neem contact met ons op</h2>
+    <p class="subheading">Heeft u vragen of wilt u meer informatie?</p>
+    <p>Neem gerust contact met ons op via het onderstaande formulier of bel ons op +31 20 123 4567.</p>
+    <form action="contact.php" method="post">
+      <label for="name">Naam:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Bericht:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Verstuur</button>
+    </form>
+  </section>
+
+
 
 
 </body>
