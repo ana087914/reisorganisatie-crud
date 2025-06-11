@@ -10,6 +10,9 @@ include 'includes/header.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Family Travel-Overons</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
 </head>
 <body>
 
@@ -71,10 +74,10 @@ include 'includes/header.php';
  <section class="team-section">
   <h2>Maak kennis met ons team</h2>
   <p class="subheading">Wij zijn er om u te helpen bij het plannen van uw droomreis</p>
-
+  <div class="team-wrapper">
   <div class="team-box1">
     <div class="team-member">
-      <img src="images/team-member1.jpg" alt="Team Member 1">
+      <img src="images/Jan.png" alt="Team Member 1">
       <h3>Jan</h3>
       <small>Reisadviseur</small>
       <p>Met jarenlange ervaring in de reisbranche helpt Jan u bij het vinden van uw perfecte vakantie naar de zon.</p>
@@ -83,7 +86,7 @@ include 'includes/header.php';
 
   <div class="team-box2">
     <div class="team-member">
-      <img src="images/team-member2.jpg" alt="Team Member 2">
+      <img src="images/Lisa.png" alt="Team Member 2">
       <h3>Lisa</h3>
       <small>Vluchtenspecialist</small>
       <p>Lisa is expert in het combineren van de beste vluchten en zorgt dat u altijd de snelste en voordeligste route heeft.</p>
@@ -92,41 +95,57 @@ include 'includes/header.php';
 
   <div class="team-box3">
     <div class="team-member">
-      <img src="images/team-member3.jpg" alt="Team Member 3">
+      <img src="images/ahmed.png" alt="Team Member 3">
       <h3>Ahmed</h3>
       <small>Avonturenplanner</small>
       <p>Ahmed helpt avonturiers met unieke ervaringen zoals safari's, bergtochten en culturele expedities.</p>
     </div>
   </div>
+ </div>
 </section>
 
-  </section>
-
- <section class="testimonial-section">
+  <section class="testimonial-section">
     <h2>Meer dan een miljoen tevreden reizigers</h2>
     <p class="subheading">Wij helpen al jarenlang reizigers de wereld te verkennen</p>
 
-    <div class="testimonial-carousel">
-      <button>&larr;</button>
-      <div class="testimonial">
-        <img src="images/daan.jpg" alt="Daan">
-        <h3>Daan</h3>
-        <small>Haag</small>
-        <p>Het is makkelijker om te kopen bij edestinos dan naar een bureau te gaan.</p>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="images/daan.jpg" alt="Daan">
+          <h3>Daan</h3>
+          <small>Haag</small>
+          <p>Het is makkelijker om te kopen bij edestinos dan naar een bureau te gaan.</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/samira.jpeg" alt="Samira">
+          <h3>Samira</h3>
+          <small>Rotterdam</small>
+          <p>Super makkelijk om vluchten te vergelijken en boeken!</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/robin.jpg" alt="Robin">
+          <h3>Robin</h3>
+          <small>Utrecht</small>
+          <p>Geweldige service en altijd de beste prijzen!</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/Ariana.jpeg" alt="Lisa">
+          <h3>Lisa</h3>
+          <small>Amsterdam</small>
+          <p>Een geweldige ervaring, ik boek hier zeker opnieuw.</p>
+        </div>
       </div>
-      <button>&rarr;</button>
-    </div>
 
-    <div class="carousel-nav">
-      <span></span>
-      <span class="active"></span>
-      <span></span>
-      <span></span>
-      <span></span>
+      <!-- Add Arrows -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
     </div>
   </section>
 
-  <section class="contact-section">
+ <section class="contact-section">
     <h2>Neem contact met ons op</h2>
     <p class="subheading">Heeft u vragen of wilt u meer informatie?</p>
     <p>Neem gerust contact met ons op via het onderstaande formulier of bel ons op +31 20 123 4567.</p>
@@ -146,7 +165,8 @@ include 'includes/header.php';
 
 
 
-
+ <script src="script.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 </body>
 </html>
 
