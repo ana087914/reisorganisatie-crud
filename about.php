@@ -15,7 +15,7 @@ include 'includes/header.php';
 
 </head>
 <body>
-
+  
     <section class= hero>
        <h1>Over ons</h1>
        <div class="scroll-down">&#8595;</div>
