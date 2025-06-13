@@ -42,6 +42,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <button type="submit">Aanmelden</button>
             <?php if (!empty($error)) echo "<p class='error'>$error</p>"; ?>
         </form>
+        <p><a href="forgot.php">Wachtwoord vergeten?</a></p>
+
     </div>
 </body>
 </html>
