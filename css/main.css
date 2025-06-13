@@ -858,40 +858,38 @@ h2 {
 }
 
 .hero {
- background-image: url("../images/overons.png");
- background-size: cover;
-image-rendering: auto;
- background-position: center;
- height:87vh ;
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- color: white;
- text-shadow: 1px 1px 2px black;
- position: relative;
-
+  background-image: url("../images/overons.png");
+  background-size: cover;
+  image-rendering: auto;
+  background-position: center;
+  height: 87vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  position: relative;
 }
 
-.hero h1{
+.hero h1 {
   font-size: 3rem;
   display: flex;
   align-items: center;
 }
 
-.scroll-down{
+.scroll-down {
   width: 30px;
   height: 30px;
   margin-top: 25px;
   font-size: 2rem;
-  background-color: #E1F7FE;
+  background-color: #e1f7fe;
   border-radius: 50%;
-  padding:10px;
-
+  padding: 10px;
 }
 
-.info-section{
-  background-color: #ADD8E6;
+.info-section {
+  background-color: #add8e6;
   color: white;
   padding: 40px 20px;
   text-align: center;
@@ -906,7 +904,7 @@ image-rendering: auto;
 .inspiration {
   display: flex;
   flex-wrap: wrap;
-  background-color: #FBFDFE;
+  background-color: #fbfdfe;
   padding: 40px 20px;
   gap: 20px;
   justify-content: center;
@@ -918,7 +916,7 @@ image-rendering: auto;
   height: auto;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .inspiration-text {
@@ -928,7 +926,7 @@ image-rendering: auto;
   border-radius: 10px;
   text-align: center;
   color: #777;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .inspiration-description {
@@ -960,7 +958,7 @@ image-rendering: auto;
   height: auto;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .plannen-text {
@@ -970,7 +968,7 @@ image-rendering: auto;
   border-radius: 10px;
   text-align: center;
   color: #777;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .plannen-description {
@@ -987,13 +985,12 @@ image-rendering: auto;
   cursor: pointer;
 }
 
-
 .inspiration img {
   max-width: 400px;
   height: auto;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .inspiration-text {
@@ -1003,7 +1000,7 @@ image-rendering: auto;
   border-radius: 10px;
   text-align: center;
   color: #777;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .inspiration-description {
@@ -1035,7 +1032,7 @@ image-rendering: auto;
   height: auto;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .plannen-text {
@@ -1045,7 +1042,7 @@ image-rendering: auto;
   border-radius: 10px;
   text-align: center;
   color: #777;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .plannen-description {
@@ -1061,87 +1058,78 @@ image-rendering: auto;
   border-radius: 5px;
   cursor: pointer;
 }
-
-
-
-
-
-
-
 
 .testimonial-section {
-      text-align: center;
-      padding: 60px 20px;
-      background-color: #ecf8fb;
-    }
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #ecf8fb;
+}
 
-    .testimonial-section h2 {
-      font-size: 2rem;
-      color: #1f2d3d;
-      margin-bottom: 10px;
-    }
+.testimonial-section h2 {
+  font-size: 2rem;
+  color: #1f2d3d;
+  margin-bottom: 10px;
+}
 
-    .testimonial-section p.subheading {
-      color: #4a4a4a;
-      margin-bottom: 40px;
-    }
+.testimonial-section p.subheading {
+  color: #4a4a4a;
+  margin-bottom: 40px;
+}
 
-    .testimonial-carousel {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 40px;
-    }
+.testimonial-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
 
-    .testimonial {
-      max-width: 300px;
-    }
+.testimonial {
+  max-width: 300px;
+}
 
-    .testimonial img {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      object-fit: cover;
-    }
+.testimonial img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
 
-    .testimonial h3 {
-      margin: 10px 0 5px;
-      font-size: 1.2rem;
-      color: #1a1a1a;
-    }
+.testimonial h3 {
+  margin: 10px 0 5px;
+  font-size: 1.2rem;
+  color: #1a1a1a;
+}
 
-    .testimonial small {
-      color: #888;
-    }
+.testimonial small {
+  color: #888;
+}
 
-    .testimonial p {
-      font-style: italic;
-      color: #9a9a9a;
-      margin-top: 10px;
-    }
+.testimonial p {
+  font-style: italic;
+  color: #9a9a9a;
+  margin-top: 10px;
+}
 
-    .carousel-nav {
-      display: flex;
-      justify-content: center;
-      margin-top: 30px;
-    }
+.carousel-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
 
-    .carousel-nav span {
-      width: 12px;
-      height: 12px;
-      margin: 0 5px;
-      background-color: #ccc;
-      border-radius: 50%;
-      display: inline-block;
-    }
+.carousel-nav span {
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: inline-block;
+}
 
-    .carousel-nav .active {
-      background-color: #007bff;
-    }
+.carousel-nav .active {
+  background-color: #007bff;
+}
 
 /* Team Styles */
-
-
 
 /* Animations */
 @keyframes fadeIn {
@@ -1164,4 +1152,71 @@ image-rendering: auto;
     opacity: 1;
     transform: translateY(0);
   }
+}
+/* === Footer === */
+footer {
+  background-color: #fff;
+  border-top: 2px solid #d4ebf2; /* oglindă la header */
+  padding: 20px 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* responsive */
+  gap: 20px;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links li a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  color: #d4ebf2;
+  -webkit-text-stroke: 0.5px #b5d6e0;
+}
+
+.footer-links li a:hover {
+  text-decoration: underline;
+}
+
+.footer-links .copyright {
+  font-size: 14px;
+  font-weight: 600;
+  color: #a6c9d4;
+  -webkit-text-stroke: 0.4px #b5d6e0;
+}
+
+/* Secțiunea Privacy din detail.php */
+.privacy-section {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 40px 30px;
+  background: #f7fbfd;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  font-family: "Montserrat", sans-serif;
+}
+
+.privacy-section h2 {
+  font-family: "Sansation", sans-serif;
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: #1a1a1a;
+}
+
+.privacy-section p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 20px;
 }
