@@ -5,12 +5,39 @@
   <aside class="admin-sidebar">
     <h2>Family<br>Travel</h2>
     <nav>
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <ul>
         <li><a href="#">dashboard</a></li>
         <li><a href="#">reizen</a></li>
         <li><a href="#">klanten</a></li>
         <li><a href="logout.php">log out</a></li>
       </ul>
+=======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+     <ul>
+  <li><a href="admin.php">Dashboard</a></li>
+  <li><a href="trip-list.php">Reizen beheer</a></li>
+  <li><a href="logout.php">Log out</a></li>
+</ul>
+
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     </nav>
   </aside>
 
