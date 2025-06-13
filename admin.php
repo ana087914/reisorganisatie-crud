@@ -7,6 +7,7 @@
     <nav>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <ul>
         <li><a href="#">dashboard</a></li>
         <li><a href="#">reizen</a></li>
@@ -16,6 +17,8 @@
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
      <ul>
   <li><a href="admin.php">Dashboard</a></li>
   <li><a href="trip-list.php">Reizen beheer</a></li>
@@ -23,6 +26,9 @@
 </ul>
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
