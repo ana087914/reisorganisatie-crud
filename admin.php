@@ -41,6 +41,8 @@ include 'includes/header.php';
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 
      <ul>
   <li><a href="admin.php">Dashboard</a></li>
@@ -50,6 +52,8 @@ include 'includes/header.php';
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
