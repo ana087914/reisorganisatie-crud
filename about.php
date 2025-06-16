@@ -16,13 +16,13 @@ include 'includes/header.php';
 </head>
 <body>
   
-    <section class= hero>
+    <section class="hero">
        <h1>Over ons</h1>
        <div class="scroll-down">&#8595;</div>
     </section>
 
     <section class="info-section">
-        <h2> Wij zijn beschikbaar voor iedere fase van uw ries</h2>
+        <h2> Wij zijn beschikbaar voor iedere fase van uw reis</h2>
         <p>
             Wij Weten hoe moeilijk het is om een reis te plannen. Wij hebben veel reizen gemaakt en willen onze ervaringen gebruiken om jou reis te plannen!
         </p>
