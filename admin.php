@@ -30,6 +30,7 @@ include 'includes/header.php';
     <h2>Family<br>Travel</h2>
     <nav>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <ul>
         <li><a href="admin.php">Dashboard</a></li>
         <li><a href="#">Reizen (în curând)</a></li>
@@ -37,6 +38,8 @@ include 'includes/header.php';
         <li><a href="logout.php">Log out</a></li>
       </ul>
 =======
+=======
+>>>>>>> Stashed changes
 
      <ul>
   <li><a href="admin.php">Dashboard</a></li>
@@ -44,6 +47,9 @@ include 'includes/header.php';
   <li><a href="logout.php">Log out</a></li>
 </ul>
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     </nav>
   </aside>
