@@ -12,7 +12,7 @@
      
       <li><a href="detail.php#privacy">Privacy & Voorwaarden</a></li>
       <li><a href="contact.php">Contact</a></li>
-      <li><span class="copyright">© 2025 Family Trave</span></li>
+      <li><span class="copyright">© 2025 Family Travel</span></li>
     </ul>
   </div>
 </footer>
