@@ -873,21 +873,6 @@ h2 {
 }
 
 .hero h1 {
-  background-image: url("../images/overons.png");
-  background-size: cover;
-  image-rendering: auto;
-  background-position: center;
-  height: 87vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-shadow: 1px 1px 2px black;
-  position: relative;
-}
-
-.hero h1 {
   font-size: 3rem;
   display: flex;
   align-items: center;
