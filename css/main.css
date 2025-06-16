@@ -873,21 +873,6 @@ h2 {
 }
 
 .hero h1 {
-  background-image: url("../images/overons.png");
-  background-size: cover;
-  image-rendering: auto;
-  background-position: center;
-  height: 87vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-shadow: 1px 1px 2px black;
-  position: relative;
-}
-
-.hero h1 {
   font-size: 3rem;
   display: flex;
   align-items: center;
@@ -1457,10 +1442,7 @@ h2 {
       color: #444;
       margin-bottom: 20px;
     }
-    /* =========================================================
-   MOBIEL-FIRST BREAKPOINT  ≤ 640 px
-   ─ Alle elementen herschikken voor smartphones
-   ========================================================= */
+
     @media (max-width: 640px) {
       /* ---------- Basisruimte ---------- */
       body {
@@ -1600,7 +1582,6 @@ h2 {
         padding: 4px 0;
       }
 
-      /* ---------- Footer ---------- */
       footer {
         background-color: #fff;
         border-top: 2px solid #d4ebf2; /* oglindă la header */
@@ -1642,6 +1623,8 @@ h2 {
         color: #a6c9d4;
         -webkit-text-stroke: 0.4px #b5d6e0;
       }
+
+      /* Secțiunea Privacy din detail.php */
       .privacy-section {
         max-width: 900px;
         margin: 60px auto;
