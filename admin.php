@@ -29,12 +29,22 @@ include 'includes/header.php';
   <aside class="admin-sidebar">
     <h2>Family<br>Travel</h2>
     <nav>
+<<<<<<< Updated upstream
       <ul>
         <li><a href="admin.php">Dashboard</a></li>
         <li><a href="#">Reizen (în curând)</a></li>
         <li><a href="#">Klanten (în curând)</a></li>
         <li><a href="logout.php">Log out</a></li>
       </ul>
+=======
+
+     <ul>
+  <li><a href="admin.php">Dashboard</a></li>
+  <li><a href="trip-list.php">Reizen beheer</a></li>
+  <li><a href="logout.php">Log out</a></li>
+</ul>
+
+>>>>>>> Stashed changes
     </nav>
   </aside>
 
