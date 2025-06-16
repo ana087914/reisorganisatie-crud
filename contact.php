@@ -56,6 +56,7 @@
   </form>
 </div>
 
+
   <section class="contact-section">
     <h2>Neem contact met ons op</h2>
     <p class="subheading">Heeft u overige vragen of wilt u meer informatie?</p>

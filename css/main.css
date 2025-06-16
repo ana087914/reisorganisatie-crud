@@ -858,6 +858,24 @@ h2 {
 }
 
 .hero {
+
+ background-image: url("../images/R.jpeg");
+ background-size: cover;
+image-rendering: auto;
+ background-position: center;
+ height:87vh ;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ color: white;
+ text-shadow: 1px 1px 2px black;
+ position: relative;
+
+}
+
+.hero h1{
+
   background-image: url("../images/overons.png");
   background-size: cover;
   image-rendering: auto;
@@ -985,39 +1003,8 @@ h2 {
   cursor: pointer;
 }
 
-.inspiration img {
-  max-width: 400px;
-  height: auto;
-  object-fit: cover;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
 
-.inspiration-text {
-  background-color: #e9f5fa;
-  padding: 20px;
-  max-width: 400px;
-  border-radius: 10px;
-  text-align: center;
-  color: #777;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.inspiration-description {
-  font-size: 1rem;
-  margin-bottom: 20px;
-}
-
-.button-inspiration {
-  padding: 10px 20px;
-  background-color: #e03c65;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.plannen {
+.take-care {
   display: flex;
   flex-wrap: wrap;
   background-color: white;
@@ -1027,7 +1014,9 @@ h2 {
   align-items: center;
 }
 
-.plannen img {
+
+.inspiration img {
+
   max-width: 400px;
   height: auto;
   object-fit: cover;
@@ -1035,7 +1024,7 @@ h2 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.plannen-text {
+.take-care-text {
   background-color: #e9f5fa;
   padding: 20px;
   max-width: 400px;
@@ -1045,20 +1034,102 @@ h2 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.plannen-description {
+.take-care-description {
   font-size: 1rem;
   margin-bottom: 20px;
 }
 
-.button-plannen {
+.button-take-care {
   padding: 10px 20px;
-  background-color: #e03c65;
+  background-color: #ec5a7e;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
+.team-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #fafeff;
+}
+
+.team-section h2 {
+  font-size: 2rem;
+  color: #1f2d3d;
+  margin-bottom: 10px;
+
+.plannen img {
+  max-width: 400px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.team-section .subheading {
+  color: #4a4a4a;
+  margin-bottom: 40px;
+  font-size: 1rem;
+}
+
+.team-box1,
+.team-box2,
+.team-box3 {
+  display: inline-block;
+  margin: 20px;
+}
+
+.team-member {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+
+  color: #777;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+}
+
+.team-member img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+
+.team-member h3 {
+  font-size: 1.2rem;
+  color: #1a1a1a;
+  margin: 10px 0 5px;
+}
+
+.team-member small {
+  color: #888;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.team-member p {
+  font-style: italic;
+  color: #666;
+  font-size: 0.95rem;
+}
+.team-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
 .testimonial-section {
   text-align: center;
   padding: 60px 20px;
@@ -1094,6 +1165,131 @@ h2 {
   object-fit: cover;
 }
 
+
+/* Testimonial Styles */
+
+ .testimonial-section {
+      text-align: center;
+       font-family: sans-serif;
+    background-color: #eef6f9;
+    margin: 0;
+    padding: 40px 20px;
+    }
+
+    h2 {
+      font-size: 2em;
+      margin-bottom: 0.2em;
+    }
+
+    .subheading {
+      font-size: 1.1em;
+      color: #555;
+      margin-bottom: 2em;
+    }
+
+    .swiper {
+      width: 100%;
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .swiper-slide {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .swiper-slide img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    .swiper-slide h3 {
+      margin: 0.5em 0 0.2em;
+    }
+
+    .swiper-slide small {
+      color: #888;
+      font-size: 0.9em;
+      margin-bottom: 0.8em;
+    }
+
+    .swiper-slide p {
+      font-style: italic;
+      color: #444;
+      font-size: 1em;
+    }
+
+    /* Swiper buttons */
+   .contact-section {
+  background-color: #f7fbfe;
+  padding: 60px 20px;
+  text-align: center;
+  color: #1a1a1a;
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #1f2d3d;
+}
+
+.contact-section .subheading {
+  color: #4a4a4a;
+  margin-bottom: 20px;
+}
+
+.contact-section form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact-section label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+.contact-section input,
+.contact-section textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.contact-section input:focus,
+.contact-section textarea:focus {
+  border-color: #80c8e5;
+  outline: none;
+}
+
+.contact-section button {
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.contact-section button:hover {
+  background-color: #005fc2;
 .testimonial h3 {
   margin: 10px 0 5px;
   font-size: 1.2rem;
