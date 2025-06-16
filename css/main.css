@@ -874,22 +874,6 @@ image-rendering: auto;
 
 }
 
-.hero h1{
-
-  background-image: url("../images/overons.png");
-  background-size: cover;
-  image-rendering: auto;
-  background-position: center;
-  height: 87vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-shadow: 1px 1px 2px black;
-  position: relative;
-}
-
 .hero h1 {
   font-size: 3rem;
   display: flex;
@@ -1058,7 +1042,7 @@ image-rendering: auto;
   font-size: 2rem;
   color: #1f2d3d;
   margin-bottom: 10px;
-
+}
 .plannen img {
   max-width: 400px;
   height: auto;
@@ -1130,6 +1114,8 @@ image-rendering: auto;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
+}
+
 .testimonial-section {
   text-align: center;
   padding: 60px 20px;
@@ -1290,6 +1276,8 @@ image-rendering: auto;
 
 .contact-section button:hover {
   background-color: #005fc2;
+}
+
 .testimonial h3 {
   margin: 10px 0 5px;
   font-size: 1.2rem;
