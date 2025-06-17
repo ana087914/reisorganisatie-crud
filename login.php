@@ -44,7 +44,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <?php if (!empty($error)) echo "<p class='error'>$error</p>"; ?>
         </form>
         <p><a href="forgot.php">Wachtwoord vergeten?</a></p>
-
+<p style="margin-top:15px">
+    Nog geen account?
+    <a href="register.php">Maak er één aan</a>
+</p>
     </div>
+    <?php include 'includes/footer.php'; ?>
 </body>
 </html>

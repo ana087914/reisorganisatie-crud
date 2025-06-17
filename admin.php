@@ -1,5 +1,5 @@
 <?php
-/********  SECURITATE + CONEXIUNE  ********/
+
 session_start();
 if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'admin') {
     header('HTTP/1.1 403 Forbidden');
@@ -7,7 +7,6 @@ if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'admin') {
 }
 require 'includes/db.php';
 
-/********  SELECTĂM BOOKING-URILE  ********/
 $stmt = $pdo->query(
     "SELECT b.id,
             b.booked_at,
@@ -24,17 +23,16 @@ $boekingen = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 include 'includes/header.php';
 ?>
-
 <div class="admin-dashboard">
   <aside class="admin-sidebar">
     <h2>Family<br>Travel</h2>
     <nav>
-
-
      <ul>
   <li><a href="admin.php">Dashboard</a></li>
   <li><a href="trip-list.php">Reizen beheer</a></li>
   <li><a href="logout.php">Log out</a></li>
+  <li><a href="admin-contact.php">Contact-berichten</a></li>
+
 </ul>
 
     </nav>

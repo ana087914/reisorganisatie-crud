@@ -1,7 +1,8 @@
 
 <?php
 include 'includes/header.php';
-
+$okMsg  = '';
+$errMsg = '';
 ?>
 
 <!DOCTYPE html>
@@ -55,10 +56,11 @@ include 'includes/header.php';
     </button>
   </div>
 </section>
-
+<h2>U bent belangrijk voor ons</h2>
 <section class="take-care">
-    <h2>U bent belangrijk voor ons</h2>
+    
   <img class="take-care-image" src="images/take-care.jpg" alt="Zonsondergang over waterbungalows">
+ </section>
   <div class="take-care-text">
     <p class="take-care-description">
       Wij zullen u ondersteunen met onze reiservaring, waar u ook bent. U hoeft alleen maar contact met ons op te nemen.
@@ -67,7 +69,7 @@ include 'includes/header.php';
       Neem contact met ons op
     </button>
   </div>
-</section>
+
 
 
  <section class="team-section">
@@ -122,7 +124,7 @@ include 'includes/header.php';
           <p>Super makkelijk om vluchten te vergelijken en boeken!</p>
         </div>
         <div class="swiper-slide">
-          <img src="images/robin.jpg" alt="Robin">
+          <img src="images/robin.png" alt="Robin">
           <h3>Robin</h3>
           <small>Utrecht</small>
           <p>Geweldige service en altijd de beste prijzen!</p>
@@ -145,26 +147,35 @@ include 'includes/header.php';
   </section>
 
  <section class="contact-section">
-    <h2>Neem contact met ons op</h2>
-    <p class="subheading">Heeft u vragen of wilt u meer informatie?</p>
-    <p>Neem gerust contact met ons op via het onderstaande formulier of bel ons op +31 20 123 4567.</p>
-    <form action="contact.php" method="post">
-      <label for="name">Naam:</label>
-      <input type="text" id="name" name="name" required>
+  <h2>Neem contact met ons op</h2>
+  <p class="subheading">Heeft u overige vragen of wilt u meer informatie?</p>
+  <p>Neem gerust contact met ons op via het onderstaande formulier of bel ons op +31 20 123 4567.</p>
 
-      <label for="email">E-mail:</label>
-      <input type="email" id="email" name="email" required>
+  <!-- feedback -->
+  <?php if ($okMsg): ?>
+      <p style="color:green;font-weight:bold;"><?= htmlspecialchars($okMsg) ?></p>
+  <?php elseif ($errMsg): ?>
+      <p style="color:red;font-weight:bold;"><?= htmlspecialchars($errMsg) ?></p>
+  <?php endif; ?>
 
-      <label for="message">Bericht:</label>
-      <textarea id="message" name="message" rows="4" required></textarea>
+  <form action="contact.php" method="post">
+    <label for="name">Naam:</label>
+    <input type="text" id="name" name="name" required>
 
-      <button type="submit">Verstuur</button>
-    </form>
-  </section>
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Bericht:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <button type="submit">Verstuur</button>
+  </form>
+</section>
 
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
  <script src="js/script.js"></script>
+ <?php include 'includes/footer.php'; ?>
 </body>
 </html>
 
