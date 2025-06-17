@@ -1791,4 +1791,19 @@ footer {
     border: none;
     padding: 4px 0;
   }
+
+  .hero2 {
+  background-image: url("../images/R.jpeg");
+  background-size: cover;
+  image-rendering: auto;
+  background-position: center;
+  height: 87vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  position: relative;
+}
 }

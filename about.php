@@ -17,7 +17,7 @@ $errMsg = '';
 </head>
 <body>
   
-    <section class="hero">
+    <section class="hero2">
        <h1>Over ons</h1>
     </section>
 
