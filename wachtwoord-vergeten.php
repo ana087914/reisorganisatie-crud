@@ -1,5 +1,4 @@
 <?php
-// Pagina doar informativă (fără sistem real de reset)
 ?>
 <div class="login-container">
   <h2>Wachtwoord vergeten?</h2>

@@ -1,8 +1,8 @@
 <?php
-$host = 'db';               // ← numele corect din docker-compose.yml
+$host = 'db';              
 $db   = 'mydatabase';
-$user = 'user';             // ← așa cum ai setat în MYSQL_USER
-$pass = 'password';         // ← așa cum ai setat în MYSQL_PASSWORD
+$user = 'user';           
+$pass = 'password';        
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";

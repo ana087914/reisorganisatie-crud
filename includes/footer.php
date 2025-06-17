@@ -15,4 +15,5 @@
       <li><span class="copyright">© 2025 Family Travel</span></li>
     </ul>
   </div>
+   <script src="js/script.js"></script>
 </footer>
