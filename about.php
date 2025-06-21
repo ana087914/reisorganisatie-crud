@@ -172,6 +172,26 @@ $errMsg = '';
   </form>
 </section>
 
+<section class="newsletter-section">
+  <div class="newsletter-container">
+    <h2>Schrijf je in voor onze nieuwsbrief</h2>
+    <p>Blijf op de hoogte van de beste reisdeals en aanbiedingen!</p>
+
+    <?php if (isset($_GET['signup']) && $_GET['signup'] == 'success'): ?>
+        <p class="newsletter-message success">U bent succesvol ingeschreven!</p>
+    <?php elseif (isset($_GET['signup']) && $_GET['signup'] == 'exists'): ?>
+        <p class="newsletter-message warning">U bent al ingeschreven.</p>
+    <?php endif; ?>
+
+    <form action="nieuwsbrief.php" method="post" class="newsletter-form">
+      <label for="nieuwsbrief-email">E-mailadres:</label>
+      <input type="email" id="nieuwsbrief-email" name="email" placeholder="Uw e-mailadres" required>
+      <button type="submit">Inschrijven</button>
+    </form>
+  </div>
+</section>
+
+
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
  <script src="js/script.js"></script>
